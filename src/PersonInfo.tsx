@@ -3,7 +3,7 @@ import { Person } from "./api";
 
 type Props = {
   data: Person;
-  onClick: (person: any) => void;
+  onClick: (person: Person) => void;
   isSelected?: boolean;
 };
 
